@@ -1,10 +1,9 @@
 #[test_only]
 module monky_food_recipes::recipes_test {
-    use std::string::{Self, String};
-    use sui::object::{Self, UID, ID};
+    use std::string;
     use sui::test_scenario;
     
-    use monky_food_recipes::recipes::{Self, Recipe, CreatorHub};
+    use monky_food_recipes::recipes::{Self, CreatorHub};
     //use sui::tx_context;
 
     #[test]
