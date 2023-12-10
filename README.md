@@ -11,6 +11,10 @@ How to build:
 - cargo install --locked --git https://github.com/MystenLabs/sui.git --branch devnet sui
 - For more information: https://docs.sui.io/guides/developer/getting-started/sui-install
 
+How to run:
+- sui move build
+- deploy: sui client publish --gas-budget 20000000 .
+
 How to test:
 - inside the folder where Move.toml is located, type the command: sui move test
 
