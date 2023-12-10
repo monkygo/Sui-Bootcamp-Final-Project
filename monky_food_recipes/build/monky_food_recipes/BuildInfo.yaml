@@ -5,7 +5,7 @@ compiled_package_info:
     monky_food_recipes: "0000000000000000000000000000000000000000000000000000000000000000"
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     sui: "0000000000000000000000000000000000000000000000000000000000000002"
-  source_digest: 98A29F593419E7DFEAB4A4255812E4E0A1405481E5896E57BE49CDD6B3F0446B
+  source_digest: 6DAE876690B98AD781A9FD1265D9D7A0CB6776EF47A04D1874508047F107F821
   build_flags:
     dev_mode: true
     test_mode: true
@@ -15,12 +15,13 @@ compiled_package_info:
     lock_file: ~
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
-    default_flavor: ~
+    default_flavor: sui
     default_edition: ~
     deps_as_root: false
     silence_warnings: false
     warnings_are_errors: false
     additional_named_addresses: {}
+    no_lint: false
 dependencies:
   - MoveStdlib
   - Sui
